@@ -38,8 +38,8 @@ Deno.test("getHKStockByCodeWithStartDateAndEndDate", async () => {
 
 Deno.test("getHKIndexFutureByIndexCodeAndDate", async () => {
   const indexCode = "HSI";
-  const month = "jan";
-  const year = "2019";
+  const month = "may";
+  const year = "2020";
 
   const result = await getHKIndexFutureByIndexCodeAndDate(
     indexCode,
@@ -59,10 +59,10 @@ Deno.test("getHKIndexFutureByIndexCodeAndDate", async () => {
 
 Deno.test("getHKIndexFutureByIndexCodeAndDateWithStateDateAndEndDate", async () => {
   const indexCode = "HSI";
-  const month = "jan";
-  const year = "2019";
-  const startDate = "2019-01-01";
-  const endDate = "2019-01-05";
+  const month = "may";
+  const year = "2020";
+  const startDate = "2020-05-01";
+  const endDate = "2020-05-05";
 
   const result = await getHKIndexFutureByIndexCodeAndDate(
     indexCode,

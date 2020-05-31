@@ -45,6 +45,12 @@ export async function getHKIndexFutureByIndexCodeAndDate(
 ) {
   let responseJSON = null;
 
+  let dateFormat = "";
+  if (month && year) {
+    const formattedMonth = await getMonth(month);
+    dateFormat = `${formattedMonth}${year}`;
+  }
+
   let params = {
     api_key: API_KEY,
   };
@@ -61,12 +67,6 @@ export async function getHKIndexFutureByIndexCodeAndDate(
     params = Object.assign(params, obj);
   }
   const queryString = new URLSearchParams(params).toString();
-
-  let dateFormat = "";
-  if (month && year) {
-    const formattedMonth = await getMonth(month);
-    dateFormat = `${formattedMonth}${year}`;
-  }
 
   const response = await fetch(
     `${ROOT_URL}/${indexCode}${dateFormat}?${queryString}`,
