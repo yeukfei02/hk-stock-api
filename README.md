@@ -181,3 +181,7 @@ const result = await stock.getHKIndexFutureByIndexCodeAndDate(indexCode, month, 
     }
 }
 ```
+
+## Related
+
+[hk-stock-cli](https://github.com/yeukfei02/hk-stock-cli)
