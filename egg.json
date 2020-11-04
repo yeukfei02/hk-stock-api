@@ -15,5 +15,6 @@
   "checkFormat": "deno fmt",
   "checkTests": "deno test -A",
   "checkInstallation": true,
-  "check": true
+  "check": true,
+  "unlisted": false
 }

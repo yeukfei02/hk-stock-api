@@ -7,6 +7,7 @@ get hk stock information in deno
 ```ts
 // pick 1 to import
 import * as stock from "https://deno.land/x/hk_stock_api/mod.ts";
+import * as stock from "https://x.nest.land/hk-stock-api@0.1.3/mod.ts";
 import * as stock from "https://denopkg.com/yeukfei02/hk-stock-api/mod.ts";
 ```
 
