@@ -5,10 +5,8 @@
 get hk stock information in deno
 
 ```ts
+// pick 1 to import
 import * as stock from "https://deno.land/x/hk_stock_api/mod.ts";
-
-or
-
 import * as stock from "https://denopkg.com/yeukfei02/hk-stock-api/mod.ts";
 ```
 
@@ -102,17 +100,18 @@ const result = await stock.getHKStockByCode(code, startDate, endDate);
 ## getHKIndexFutureByIndexCodeAndDate
 
 ### indexCode
-| INDEX NAME                                        | INDEX CODE    |
-| ------------------------------------------------- | :-----------: |
-| CES China 120 Index Futures                       | CHH           |
-| Hang Seng Index Futures (Night Session)           | HSIN          |
-| Hang Seng Index Futures                           | HSI           |
-| HSCEI Dividend Futures                            | DHH           |
-| HSI Dividend Futures                              | DHS           |
-| HSI Volatility Index Futures                      | VHS           |
-| Mini-Hang Seng Index Futures (Night Session)      | MHIN          |
-| Mini-Hang Seng Index Futures                      | MHI           |
-| US Dollar vs Renminbi (Hong Kong) (USD/CNH)       | CUS           |
+
+| INDEX NAME                                   | INDEX CODE |
+| -------------------------------------------- | :--------: |
+| CES China 120 Index Futures                  |    CHH     |
+| Hang Seng Index Futures (Night Session)      |    HSIN    |
+| Hang Seng Index Futures                      |    HSI     |
+| HSCEI Dividend Futures                       |    DHH     |
+| HSI Dividend Futures                         |    DHS     |
+| HSI Volatility Index Futures                 |    VHS     |
+| Mini-Hang Seng Index Futures (Night Session) |    MHIN    |
+| Mini-Hang Seng Index Futures                 |    MHI     |
+| US Dollar vs Renminbi (Hong Kong) (USD/CNH)  |    CUS     |
 
 ```ts
 const indexCode = "HSI";
