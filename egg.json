@@ -1,0 +1,19 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.1/src/schema.json",
+  "name": "hk-stock-api",
+  "entry": "./mod.ts",
+  "description": "get hk stock information in deno",
+  "homepage": "https://github.com/yeukfei02/hk-stock-api",
+  "version": "0.1.3",
+  "files": [
+    "*",
+    "*/**/*"
+  ],
+  "ignore": [
+    "./.git/**"
+  ],
+  "checkFormat": "deno fmt",
+  "checkTests": "deno test -A",
+  "checkInstallation": true,
+  "check": true
+}
