@@ -4,7 +4,7 @@
   "entry": "./mod.ts",
   "description": "get hk stock information in deno",
   "homepage": "https://github.com/yeukfei02/hk-stock-api",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "files": [
     "*",
     "*/**/*"
