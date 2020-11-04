@@ -2,12 +2,14 @@
 
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/hk_stock_api/mod.ts)
 
+[![nest badge](https://nest.land/badge.svg)](https://nest.land/package/hk-stock-api)
+
 get hk stock information in deno
 
 ```ts
 // pick 1 to import
 import * as stock from "https://deno.land/x/hk_stock_api/mod.ts";
-import * as stock from "https://x.nest.land/hk-stock-api@0.1.5/mod.ts";
+import * as stock from "https://x.nest.land/hk-stock-api@0.1.6/mod.ts";
 import * as stock from "https://denopkg.com/yeukfei02/hk-stock-api/mod.ts";
 ```
 
