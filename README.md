@@ -2,6 +2,8 @@
 
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/hk_stock_api/mod.ts)
 
+[![nest badge](https://nest.land/badge.svg)](https://nest.land/package/hk-stock-api)
+
 get hk stock information in deno
 
 ```ts
